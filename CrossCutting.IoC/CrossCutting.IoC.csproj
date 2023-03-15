@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\CroosCutting.Identity\CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\CrossCutting.Bus\CrossCutting.Bus.csproj" />
+    <ProjectReference Include="..\Projeto.Repository\Projeto.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
